@@ -103,5 +103,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# data folder
+# Original data
 Kickstarter_data/
