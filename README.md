@@ -23,8 +23,15 @@ There are three different features to predict:
 ### Data acquisition
 Get the data from webrobots.io
 
-### Exploration
-Find out what kind of data we have, what is irrelevant, possible outliers, what preprocessing the data needs before modelling
+[Data preprocessing ](/Data preprocessing.ipynb) - Processing the data so it can be explored
+
+### Exploration & Preprocessing
+[Exploring the data](/Data exploration.ipynb) - Finding out what kind of data we have, and what should be done before modelling
+
+[Processing data](/Processing data.ipynb) - Processing the explored data to prepare it for modelling
+ - Changing all values to numerical
+ - Removing outliers and unnecessary columns
+ - Standardizing some of the values
 
 ### Model
 Use RandomForestClassifier for Success/failure and RandomForestRegressor for number of backers and amount of money raised.
@@ -32,16 +39,3 @@ Use RandomForestClassifier for Success/failure and RandomForestRegressor for num
 ### Results
 
 Try to classify live projects and try to compare the results to real information if the project is finished.
-
-
-## asdf
-
-- Data preprocessing, I: [Data preprocessing ](Data preprocessing.ipynb) - Processing the data so it can be explored
-- Data preprocessing, II: [Exploring the data](Data exploration.ipynb) - Finding out what kind of data we have, and what should be done before modelling
-- Data preprocessing, III: [Processing data](Processing data.ipynb) - Processing the explored data to prepare it for modelling
- - Changing all values to numerical
- - Removing outliers and unnecessary columns
- - Standardizing some of the values
- 
-- Modelling: 
-- 
