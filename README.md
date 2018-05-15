@@ -23,12 +23,12 @@ There are three different features to predict:
 ### Data acquisition
 Get the data from webrobots.io
 
-[Data preprocessing]("Data preprocessing.ipynb") - Processing the data so it can be explored
+[Data preprocessing](Data%20preprocessing.ipynb) - Processing the data so it can be explored
 
 ### Exploration & Preprocessing
-[Exploring the data]("Data exploration.ipynb") - Finding out what kind of data we have, and what should be done before modelling
+[Exploring the data](Data%20exploration.ipynb) - Finding out what kind of data we have, and what should be done before modelling
 
-[Processing data]("Processing data.ipynb") - Processing the explored data to prepare it for modelling
+[Processing data](Processing%20data.ipynb) - Processing the explored data to prepare it for modelling
  - Changing all values to numerical
  - Removing outliers and unnecessary columns
  - Standardizing some of the values
