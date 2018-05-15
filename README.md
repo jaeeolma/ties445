@@ -37,11 +37,14 @@ There are three different features to predict:
 Use RandomForestClassifier for Success/failure and RandomForestRegressor for number of backers and amount of money raised.
 
 [State classifier](State%20classifier.ipynb)
+
 [Pledged amount regressor](Pledged%20amout%20regressor.ipynb)
+
 [Backers count regressor](Backers%20count%20regressor.ipynb)
 
 
 ### Results
 
 Try to classify live projects and try to compare the results to real information if the project is finished.
+
 [Live project predictor.ipynb](Live%20project%20predictor.ipynb)
