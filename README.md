@@ -27,11 +27,13 @@ Get the data from webrobots.io
 
 ### Exploration & Preprocessing
 [Exploring the data](Data%20exploration.ipynb) - Finding out what kind of data we have, and what should be done before modelling
+ ..* Main problem is incomplete data with scewed success/failure rate in the training set
+ ..* Some of the data may need normalization/standardization
 
 [Processing data](Processing%20data.ipynb) - Processing the explored data to prepare it for modelling
- - Changing all values to numerical
- - Removing outliers and unnecessary columns
- - Standardizing some of the values
+ ..* Changing categorical values to numerical
+ ..* Removing some of the outliers and unnecessary values
+ ..* Standardizing some of the values
 
 ### Model
 Use RandomForestClassifier for Success/failure and RandomForestRegressor for number of backers and amount of money raised.
