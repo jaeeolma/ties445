@@ -28,7 +28,7 @@ There are three different features to predict:
 * Main problem is incomplete data with scewed success/failure rate in the training set
 * Some of the data may need normalization/standardization
 
-[Processing data](Processing%20data.ipynb) - Processing the explored data to prepare it for modelling
+[Processing data](Processing%20Data.ipynb) - Processing the explored data to prepare it for modelling
 * Changing categorical values to numerical
 * Removing some of the outliers and unnecessary values
 * Standardizing some of the values
@@ -36,6 +36,12 @@ There are three different features to predict:
 ### Model
 Use RandomForestClassifier for Success/failure and RandomForestRegressor for number of backers and amount of money raised.
 
+[State classifier](State%20classifier.ipynb)
+[Pledged amount regressor](Pledged%20amout%20regressor.ipynb)
+[Backers count regressor](Backers%20count%20regressor.ipynb)
+
+
 ### Results
 
 Try to classify live projects and try to compare the results to real information if the project is finished.
+[Live project predictor.ipynb](Live%20project%20predictor.ipynb)
