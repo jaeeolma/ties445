@@ -21,16 +21,14 @@ There are three different features to predict:
 3. Amount of money raised
 
 ### Data acquisition
-Get the data from webrobots.io
-
-[Data preprocessing](Data%20preprocessing.ipynb) - Processing the data so it can be explored
+* [Data preprocessing](Data%20preprocessing.ipynb) - Processing the data downloaded from webrobots.io so it can be explored
 
 ### Exploration & Preprocessing
-[Exploring the data](Data%20exploration.ipynb) - Finding out what kind of data we have, and what should be done before modelling
+* [Exploring the data](Data%20exploration.ipynb) - Finding out what kind of data we have, and what should be done before modelling
  ..* Main problem is incomplete data with scewed success/failure rate in the training set
  ..* Some of the data may need normalization/standardization
 
-[Processing data](Processing%20data.ipynb) - Processing the explored data to prepare it for modelling
+* [Processing data](Processing%20data.ipynb) - Processing the explored data to prepare it for modelling
  ..* Changing categorical values to numerical
  ..* Removing some of the outliers and unnecessary values
  ..* Standardizing some of the values
