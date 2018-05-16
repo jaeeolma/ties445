@@ -1,5 +1,5 @@
 # Predicting the success of Kickstarter projects 
-University of Jyväskylä TIES445 data mining project
+University of Jyväskylä TIES445 data mining project, Janne Mäyrä and Riikka Vilavaara
 
 ## Research question
 Based on the data of all previous Kickstarter projects, are we able to predict the success of currently live projects. How about number of backers they get, or the amount of money they will raise?
@@ -10,7 +10,7 @@ Webrobots.io [hosts scraped Kickstarter data](https://webrobots.io/kickstarter-d
 
 Before any modifications or selections, total size of this dataset is 195614 projects and 37 features. 
 
-There are 105680 successful projects, 73634 failed projects, 8823 cancelled projects, 601 suspended projects and 6876 live projects. In this project, we consider also cancelled and suspended projects as failed.
+There are 105680 successful projects, 73634 failed projects, 8823 cancelled projects, 601 suspended projects and 6876 live projects. In this project, we drop canceled and suspended projects 
 
 ## Workflow
 
@@ -20,7 +20,7 @@ There are three different features to predict:
 2. Number of backers
 3. Amount of money raised
 
-Of these we focus on Success/failure.
+Of these we focus on Success/failure. Number of backers and amount of money can be predicted for instance with regression tree forests, but they might need data from different rewards. We tested those and got really bad scores.
 
 ### Data acquisition
 [Data preprocessing](Data%20preprocessing.ipynb) - Processing the data downloaded from webrobots.io so it can be explored
@@ -36,10 +36,12 @@ Of these we focus on Success/failure.
 * Standardizing some of the values
 
 ### Model
-Use RandomForestClassifier for Success/failure and RandomForestRegressor for number of backers and amount of money raised.
+Use RandomForestClassifier for Success/failure.
 
+Build a classifier, test different hyperparameters, drop irrelevant keys.
 [State classifier](State%20classifier.ipynb)
 
+Try to apply PCA to processed dataset:
 [State classifier with PCA](State classifier with PCA.ipynb)
 
 
@@ -48,3 +50,5 @@ Use RandomForestClassifier for Success/failure and RandomForestRegressor for num
 Try to classify live projects and try to compare the results to real information if the project is finished.
 
 [Live project predictor.ipynb](Live%20project%20predictor.ipynb)
+
+Out-of-box error for classifier is ~0.21, while accuracy score for live projects is around 64%. 
