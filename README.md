@@ -20,6 +20,8 @@ There are three different features to predict:
 2. Number of backers
 3. Amount of money raised
 
+Of these we focus on Success/failure.
+
 ### Data acquisition
 [Data preprocessing](Data%20preprocessing.ipynb) - Processing the data downloaded from webrobots.io so it can be explored
 
@@ -38,9 +40,7 @@ Use RandomForestClassifier for Success/failure and RandomForestRegressor for num
 
 [State classifier](State%20classifier.ipynb)
 
-[Pledged amount regressor](Pledged%20amout%20regressor.ipynb)
-
-[Backers count regressor](Backers%20count%20regressor.ipynb)
+[State classifier with PCA](State classifier with PCA.ipynb)
 
 
 ### Results
