@@ -42,13 +42,12 @@ Build a classifier, test different hyperparameters, drop irrelevant keys.
 [State classifier](State%20classifier.ipynb)
 
 Try to apply PCA to processed dataset:
-[State classifier with PCA](State classifier with PCA.ipynb)
-
+[State classifier with PCA](State%20classifier%20with%20PCA.ipynb)
 
 ### Results
 
 Try to classify live projects and try to compare the results to real information if the project is finished.
 
-[Live project predictor.ipynb](Live%20project%20predictor.ipynb)
+[Live project predictor](Live%20project%20predictor.ipynb)
 
 Out-of-box error for classifier is ~0.21, while accuracy score for live projects is around 64%. 
